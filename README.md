@@ -1,16 +1,6 @@
 # contac_form_app
 
-A new Flutter project.
+A Contacts App which will save your contacts on Firestore Database.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[contact_app_recording.webm](https://github.com/Nakulp07/contact_form_app/assets/100123771/1434ccc4-5788-4de7-acb2-6317b2865473)
