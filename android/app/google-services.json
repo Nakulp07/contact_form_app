@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "407063578458",
+    "project_id": "contact-form-ae7df",
+    "storage_bucket": "contact-form-ae7df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407063578458:android:2a66adfefe8057b0c99563",
+        "android_client_info": {
+          "package_name": "com.NakulP.contac_form_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_Y-AwHNbbpQBjuQaKSym_tyXspxHSOQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
