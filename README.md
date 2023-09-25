@@ -6,9 +6,12 @@ A Contacts App which will save your contacts to Firestore Database.
 This Flutter mobile app is designed to accept user information, validate the data, and store it in a Cloud Firestore database. The app is built using the Flutter framework and incorporates several key features and technologies, including BloC state management, GoRouter for navigation, Firebase Firestore for data storage, and Lottie animations for a polished user experience.
 
 # App Demo
+[contact_app_recording.webm](https://github.com/Nakulp07/contact_form_app/assets/100123771/7cf9833e-7491-40f1-bf86-3121d4002016)
 
-ng.webm](https://github.com/Nakulp07/contact_form_app/assets/100123771/1434ccc4-5788-4de7-acb2-6317b2865473)
-[contact_app_recordi![Screenshot (201)](https://github.com/Nakulp07/contact_form_app/assets/100123771/ecad614e-9ff5-4209-bf83-f02c7ab65f33)
+# FireStore Window
+
+![Screenshot (201)](https://github.com/Nakulp07/contact_form_app/assets/100123771/e1e75661-41a0-44fc-9e2f-b64ca5ed8ccb)
+
 
 # Features
 
