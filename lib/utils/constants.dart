@@ -17,13 +17,13 @@ OutlineInputBorder textFormFieldFocusedBorder = OutlineInputBorder(
 // Border outline for all enabled TextFormField
 OutlineInputBorder textFormFieldEnabledBorder = OutlineInputBorder(
   borderRadius: BorderRadius.circular(5.0),
-  borderSide: BorderSide(
+  borderSide: const BorderSide(
     color: Colors.grey,
   ),
 );
 
 // textstyle for label of  all the enabled TextFormFields
-TextStyle enabledlabeltextStyle = TextStyle(
+TextStyle enabledlabeltextStyle = const TextStyle(
   color: Colors.grey,
   fontWeight: FontWeight.bold,
   fontFamily: 'OpenSans',
@@ -31,13 +31,13 @@ TextStyle enabledlabeltextStyle = TextStyle(
 
 // textstyle for label of the focused TextFormField
 TextStyle focusedlabeltextStyle = TextStyle(
-  color: ColorsTheme().TextFormFieldLabelColor,
+  color: ColorsTheme().textFormFieldLabelColor,
   fontWeight: FontWeight.bold,
   fontFamily: 'OpenSans',
 );
 
 // textstyle for all the headlines in th app
-TextStyle headlineTextStyle = TextStyle(
+TextStyle headlineTextStyle = const TextStyle(
   color: Colors.black,
   fontSize: 30,
   fontWeight: FontWeight.w400,
@@ -45,7 +45,7 @@ TextStyle headlineTextStyle = TextStyle(
 );
 
 // textstyle for all buttons in app
-TextStyle buttonTextStyle = TextStyle(
+TextStyle buttonTextStyle = const TextStyle(
   fontFamily: 'OpenSans',
   color: Colors.white,
 );

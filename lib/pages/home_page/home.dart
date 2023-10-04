@@ -22,12 +22,9 @@ class _HomeState extends State<Home> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Container(
-              // headline for Home page
-              child: Text(
-                'Contact Form App',
-                style: headlineTextStyle,
-              ),
+            Text(
+              'Contact Form App',
+              style: headlineTextStyle,
             ),
             // simple lottie animation for home page
             Lottie.asset(Animations().homepageAnimation),

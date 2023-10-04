@@ -13,7 +13,7 @@ class _ErrorClassState extends State<ErrorClass> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Something went wrong !!'),
+        title: const Text('Something went wrong !!'),
       ),
     );
   }

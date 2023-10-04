@@ -1,3 +1,4 @@
+import 'package:contac_form_app/pages/login_page/welcome.dart';
 import 'package:contac_form_app/pages/submitted_page/error_page.dart';
 import 'package:contac_form_app/pages/submitted_page/submitted.dart';
 import 'package:contac_form_app/routes/route_constants.dart';
@@ -16,9 +17,17 @@ class FormAppRouter {
       GoRoute(
         // route to home page
         path: '/',
+        name: FormAppconstants.welcomeRouteName,
+        pageBuilder: (BuildContext context, GoRouterState state) {
+          return MaterialPage(child: Welcome());
+        },
+      ),
+      GoRoute(
+        // route to home page
+        path: '/Home',
         name: FormAppconstants.homeRouteName,
         pageBuilder: (BuildContext context, GoRouterState state) {
-          return MaterialPage(child: Home());
+          return const MaterialPage(child: Home());
         },
       ),
       GoRoute(
@@ -26,7 +35,7 @@ class FormAppRouter {
         path: '/Form',
         name: FormAppconstants.formRouteName,
         pageBuilder: (context, state) {
-          return MaterialPage(child: FormClass());
+          return const MaterialPage(child: FormClass());
         },
       ),
       GoRoute(
@@ -34,13 +43,13 @@ class FormAppRouter {
         path: '/Submitted',
         name: FormAppconstants.exitRouteName,
         pageBuilder: (context, state) {
-          return MaterialPage(child: SubmitSuccess());
+          return const MaterialPage(child: SubmitSuccess());
         },
       ),
     ],
     // builder for the error page
     errorPageBuilder: (context, state) {
-      return MaterialPage(child: ErrorClass());
+      return const MaterialPage(child: ErrorClass());
     },
   );
 }

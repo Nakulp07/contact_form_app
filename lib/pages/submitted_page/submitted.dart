@@ -30,7 +30,7 @@ class _SubmitSuccessState extends State<SubmitSuccess> {
             ),
             // simple Lottie animation
             Lottie.asset(Animations().submitAnimation, width: 200, height: 300),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             // Elevated button to go back to the Home Page
