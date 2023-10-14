@@ -1,5 +1,5 @@
-import 'package:contac_form_app/pages/auth/later_auth_service.dart';
-import 'package:contac_form_app/pages/auth/data.dart';
+import 'package:contac_form_app/auth/later_auth_service.dart';
+import 'package:contac_form_app/auth/data.dart';
 import 'package:contac_form_app/routes/route_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:contac_form_app/utils/colors.dart';

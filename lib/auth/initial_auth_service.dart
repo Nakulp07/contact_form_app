@@ -4,14 +4,14 @@ import 'package:auth0_flutter/auth0_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 
-import '../login_page/login.dart';
-import '../login_page/profile.dart';
+import '../pages/login_page/login.dart';
+import '../pages/login_page/profile.dart';
 import 'data.dart';
 
 final getIt = GetIt.instance;
 
 void setup() {
-  getIt.registerLazySingleton(() => Auth0AuthenticationService());
+  getIt.registerSingleton(() => Auth0AuthenticationService());
 }
 
 class Auth0AuthenticationService {
@@ -57,7 +57,7 @@ class _DecideState extends State<Decide> {
     return StreamBuilder(
       stream: auth0service.getAuthToken,
       builder: (context, snapshot) {
-        print(snapshot.data);
+        log('${snapshot.data}');
         if (snapshot.data == AuthState.signedin) {
           return Profile();
         } else {

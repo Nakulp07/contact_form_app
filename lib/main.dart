@@ -1,4 +1,4 @@
-import 'package:contac_form_app/pages/auth/initial_auth_service.dart';
+import 'package:contac_form_app/auth/initial_auth_service.dart';
 import 'package:contac_form_app/routes/route_config.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
